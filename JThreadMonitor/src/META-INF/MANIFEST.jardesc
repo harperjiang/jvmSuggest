@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK" standalone="no"?>
+<jardesc>
+    <jar path="C:/asmtest/JThreadMonitor.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/JThreadMonitor/src/META-INF/MANIFEST.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" manifestLocation="/JThreadMonitor/src/META-INF/MANIFEST.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/JThreadMonitor/.classpath"/>
+        <file path="/JThreadMonitor/.project"/>
+        <javaElement handleIdentifier="=JThreadMonitor/src"/>
+        <folder path="/JThreadMonitor/lib"/>
+    </selectedElements>
+</jardesc>
