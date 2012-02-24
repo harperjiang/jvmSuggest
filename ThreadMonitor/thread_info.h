@@ -9,6 +9,13 @@
 #define THREAD_INFO_H_
 
 class ThreadInfo {
+private:
+	// The thread this ThreadInfo associated to
+	jthread* thread;
+	// The bytes allocated by this thread
+	jint allocated;
+	// The thread counts this thread blocked
+	jint blocked;
 public:
 	ThreadInfo();
 	virtual ~ThreadInfo();
